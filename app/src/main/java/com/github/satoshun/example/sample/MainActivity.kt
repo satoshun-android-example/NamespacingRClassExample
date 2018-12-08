@@ -16,5 +16,3 @@ class MainActivity : BaseActivity() {
     binding.model = Model("TEST")
   }
 }
-
-data class Model(val userName: String)

@@ -15,7 +15,7 @@ android {
 }
 
 dependencies {
-  implementation project(':base2')
+  implementation project(':base3')
 
   implementation Libs.kotlin
 

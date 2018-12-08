@@ -15,8 +15,6 @@ android {
 }
 
 dependencies {
-  implementation project(':base2')
-
   implementation Libs.kotlin
 
   implementation Libs.fragmentx
