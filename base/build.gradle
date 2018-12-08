@@ -1,0 +1,24 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+android {
+  compileSdkVersion Vers.compile_sdk
+
+  defaultConfig {
+    minSdkVersion Vers.min_sdk
+  }
+
+  dataBinding {
+    enabled = true
+  }
+}
+
+dependencies {
+  implementation Libs.kotlin
+
+  implementation Libs.fragmentx
+  implementation Libs.activityx
+
+  implementation Libs.constraintlayout
+}
